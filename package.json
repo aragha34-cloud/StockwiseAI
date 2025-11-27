@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
@@ -71,3 +72,31 @@
     "typescript": "^5"
   }
 }
+=======
+  "name": "stock-wise-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Stock Wise Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node scripts/init-db.js"
+  },
+  "keywords": ["stock", "portfolio", "investment", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
+>>>>>>> fd232f2 (Initial commit - backend)
